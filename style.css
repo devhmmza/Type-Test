@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ff00ae;
+    color: #c1ff1a;
+}
+
+.container {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.logo {
+    background-color: #c1ff1a;
+    color: #ff00ae;
+    padding: 4px 10px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.main-box h2,
+.main-box h3 {
+    margin: 10px 0;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.timer,
+.stat {
+    background-color: #c1ff1a;
+    color: #ff00ae;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 10px;
+    width: 100px;
+    font-weight: bold;
+}
+
+#paragraph {
+  background-color: #c1ff1a;
+  color: #ff00ae;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 20px;
+  max-width: 700px;
+  margin: 0 auto 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  line-height: 1.8;
+  word-spacing: 4px;
+}
+
+#paragraph span.char {
+  margin: 0 1px;
+  opacity: 0.5;
+  transition: all 0.2s;
+  white-space: pre;
+}
+
+#paragraph span.correct {
+  opacity: 1;
+  font-weight: bold;
+}
+
+#paragraph span.incorrect {
+  color: red;
+  opacity: 1;
+}
+
+#input-field {
+  width: 80%;
+  max-width: 600px;
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  resize: none;
+  margin-top: 10px;
+}
+
+.stat span {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.background-letters {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.background-letters span {
+  position: absolute;
+  font-size: 80px;
+  color: #c1ff1a;
+  opacity: 0.03; 
+  font-weight: bold;
+}
