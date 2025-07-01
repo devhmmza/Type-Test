@@ -5,7 +5,7 @@ A clean, responsive, and interactive typing speed test web app built with HTML, 
 
 A beautiful, responsive, and interactive web application that lets you test your typing speed in real time. Built using **HTML**, **CSS**, and **JavaScript**.
 
-Live Demo 👉 [https://devhmmza.github.io/Type-Test/](https://Type-Test.github.io/Type-Test/)
+Live Demo 👉 https://devhmmza.github.io/Type-Test/
 
 ---
 
